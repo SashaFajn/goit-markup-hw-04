@@ -102,11 +102,11 @@ img {
   color: #404bbf;
   padding: 24px 0;
   position: relative;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-menu-link.current {
   position: relative;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-menu-link.current::after {
   content: "";
@@ -290,6 +290,7 @@ img {
   min-width: 169px;
   min-height: 56px;
   border: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -301,12 +302,12 @@ img {
 .header-contacts-item:hover,
 .header-contacts-item:focus {
   color: #404bbf;
-  transition: color 250ms (0.4, 0, 0.2, 1);
+  transition: background-color 250ms (0.4, 0, 0.2, 1);
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
-  transition: color 250ms (0.4, 0, 0.2, 1);
+  transition: background-color 250ms (0.4, 0, 0.2, 1);
 }
 
 .header-contacts {
@@ -375,7 +376,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
